@@ -1,9 +1,7 @@
-Work in Progress
-
 <h1>OpenFace++</h1>
 
 <h2>Introduction</h2>
-OpenFace++ was created for my diploma thesis. 
+OpenFace++ was created for my diploma thesis [LINK]. It is based on the original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> codebase from August 2016. OpenFace++ contains several modifications and extensions.
 
 <h2>Comparison to OpenFace</h2>
 OpenFace++ includes these changes compared to OpenFace.
@@ -11,13 +9,15 @@ OpenFace++ includes these changes compared to OpenFace.
 * Facial Expression Detection (using Action Units)
 * Attention Estimation (using Eye-Gaze)
 * Android Support
-* Background Worker Thread
-* Simplified API
+* Encapsulated in Background Worker Thread
+* Drastically Simplified API
 * Code Refactoring
-* Static Linking and Optimized Build
+* Static Linking and Optimized Building
+
+OpenFace++ does NOT contain any major changes to facial data extraction techniques used by OpenFace.
 
 <h2>Dependencies</h2>
-The sources of following third party components have been added to this repository. These components are linked statically into the final executable or library. You must respect their licenses.
+The sources of following third party components have been added to this repository. These components are linked statically into the final executable or library. You must respect their licenses. OpenFace++ requires NO boost.
 
 <table>
 <tr>
