@@ -103,6 +103,10 @@ Visual Studio 2015 is required. Make sure to selected C++ and Android NDK relate
   <td>Platforms:</td>
   <td>ARM, ARM64, x86, x64</td>
 </tr>
+<tr>
+  <td>Target:</td>
+  <td>android-19</td>
+</tr>
 </table>
 
 _Note_: The Android solution includes the additional <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine/src/openface-jni">openface-jni</a> project. This is the <a href="https://en.wikipedia.org/wiki/Java_Native_Interface">Java JNI</a> wrapper used to access OpenFace from a managed Java APP on Android. This project generates the _SO_ library file which can be loaded and called in an Android App using the _native_ keyword in Java.
