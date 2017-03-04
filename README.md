@@ -27,7 +27,7 @@ OpenFace++ was created for research purposes and does not have any additional li
 
 <hr/>
 <h2>Dependencies</h2>
-The sources of following third party components have been added to this repository. These components are linked statically into the final executable or library. You must respect their licenses. Unlike OpenFace, OpenFace++ requires NO boost.
+The sources of following third party components have been added to this repository. These components are linked statically into the final application. You must respect their licenses. Unlike OpenFace, OpenFace++ does NOT require boost.
 
 <table>
 <tr>
