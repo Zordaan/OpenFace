@@ -105,6 +105,7 @@ Visual Studio 2015 is required. Make sure to selected C++ and Android NDK relate
 </tr>
 </table>
 
+_Note_: The Android solution includes the additional <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine/src/openface-jni">openface-jni</a> project. This is the <a href="https://en.wikipedia.org/wiki/Java_Native_Interface">Java JNI</a> wrapper used to access OpenFace from a managed Java APP on Android. This project generates the _SO_ library file which can be loaded and called in an Android App using the _native_ keyword in Java.
 
 <h3>MiniExample</h3>
 * Minimal example as presented in my thesis.
@@ -116,6 +117,8 @@ Visual Studio 2015 is required. Make sure to selected C++ and Android NDK relate
 * Application used for the user study in my thesis
 * For Windows only
 * Building requires successfully compiled engine for Windows!
+* Streams facial data data using OSC network protocol.
 * VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a>
 
 <h3>OpenFaceAndroid</h3>
+* TODO
