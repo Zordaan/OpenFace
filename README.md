@@ -21,6 +21,33 @@ For more detailed information please scroll down to _Implementation Details_.
 <h2>Downloads</h2>
 Precompiled binaries available soon!
 
+<table>
+<tr>
+<td><b>Project</b></td>
+<td><b>Platform</b></td>
+<td><b>Distribution</b></td>
+<td><b>Download</b></td>
+</tr>
+<tr>
+<td>MiniExample</td>
+<td>Windows</td>
+<td>ZIP</td>
+<td>Link</td>
+</tr>
+<tr>
+<td>FaceSensor</td>
+<td>Windows</td>
+<td>ZIP</td>
+<td>Link</td>
+</tr>
+<tr>
+<td>OpenFaceAndroid</td>
+<td>Android 4.4+</td>
+<td>APK</td>
+<td>Link</td>
+</tr>
+</table>
+
 <hr/>
 <h2>License</h2>
 OpenFace++ was created for research purposes and does not have any additional license requirements. However, you must respect the original OpenFace <a href="https://github.com/TadasBaltrusaitis/OpenFace/blob/master/Copyright.txt">license</a> as well as the licenses of dependencies listed below.
@@ -157,4 +184,6 @@ More advanced. Uses libsvm trained regression. Training was done on the CK+ data
 
 <h3>Android Support</h3>
 <img src="http://i.imgur.com/fjspkXg.jpg"/>
+
+<h3>Background Thread</h3>
 
