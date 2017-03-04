@@ -73,12 +73,23 @@ The sources of following third party components have been added to this reposito
 Visual Studio 2015 is required. Make sure to selected C++ and Android NDK related components at setup stage.
 
 <h3>Engine</h3>
-The <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine">Engine</a> subfolder contains all libraries including the dependencies and OpenFace++ itself. These libraries are statically built and not precompiled. The first step is to build the engine using the Visual Studio 2015 solutions below. It is recommended to build the engine for all possible configurations (e.g. x86/debug being one). This step must only be done once or in case there are changes in the dependencies.
+* <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine">Engine</a> folder contains all dependencies and OpenFace++
+* All libraries are compiled statically from sources, no precompiled binaries. 
+* First step: Build the engine using the Visual Studio 2015 solutions below!
+* Recommendation: Build engine for all possible configurations (e.g. x86/debug being only one).
+* This step must be done only once or in case there are changes in the dependencies.
 
 Compiled libraries are placed in: _Engine/lib/[platform]_ </br>
 Debug builds include additional filename appendix: _\_d_
 
+Visual Studio Solutions:</br>
 <ul>
 <li>Windows: <a href="https://github.com/cyberjunk/OpenFace/blob/master/Engine/Engine.sln">Engine.sln</a></li>
 <li>Android: <a href="https://github.com/cyberjunk/OpenFace/blob/master/Engine/Engine-Android.sln">Engine-Android.sln</a></li>
 </ul>
+
+<h3>MiniExample</h3>
+
+<h3>FaceSensor</h3>
+
+<h3>OpenFaceAndroid</h3>
