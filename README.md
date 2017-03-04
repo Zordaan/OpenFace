@@ -115,7 +115,7 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 
 <h3>FaceSensor</h3>
 * Application used for the user study in my thesis
-* For Windows only
+* For Windows only; requires Webcam.
 * Building requires successfully compiled engine for Windows!
 * Streams facial data data using OSC network protocol.
 * VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a>
