@@ -112,6 +112,7 @@ Visual Studio 2015 is required. Make sure to selected C++ and Android NDK relate
 _Note_: The Android solution includes the additional <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine/src/openface-jni">openface-jni</a> project. This is the <a href="https://en.wikipedia.org/wiki/Java_Native_Interface">Java JNI</a> wrapper used to access OpenFace from a managed Java APP on Android. This project generates the _SO_ library file which can be loaded and called in an Android App using the _native_ keyword in Java.
 
 <h3>MiniExample</h3>
+* <a href="https://github.com/cyberjunk/OpenFace/tree/master/MiniExample">Folder</a>
 * Minimal example as presented in my thesis.
 * For Windows only; requires Webcam.
 * Building requires successfully compiled engine for Windows!
@@ -119,6 +120,7 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 * VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/MiniExample/MiniExample.sln">MiniExample.sln</a>
 
 <h3>FaceSensor</h3>
+* <a href="https://github.com/cyberjunk/OpenFace/tree/master/FaceSensor">Folder</a>
 * Application used for the user study in my thesis
 * For Windows only; requires Webcam.
 * Building requires successfully compiled engine for Windows!
@@ -127,6 +129,7 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 * VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a>
 
 <h3>OpenFaceAndroid</h3>
+* <a href="https://github.com/cyberjunk/OpenFace/tree/master/OpenFaceAndroid">Folder</a>
 * Test project for Android Studio
 * (!) Requires compatible SO library from _openface-jni_
 * (!) Contains duplicated resources from _Engine/res_
