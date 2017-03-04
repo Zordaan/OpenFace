@@ -3,6 +3,7 @@
 <h2>Introduction</h2>
 OpenFace++ was created for my diploma thesis [LINK]. It is based on the original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> codebase from August 2016. OpenFace++ contains several modifications and extensions.
 
+<hr/>
 <h2>Comparison to OpenFace</h2>
 OpenFace++ includes these changes compared to OpenFace.
 
@@ -14,8 +15,9 @@ OpenFace++ includes these changes compared to OpenFace.
 * Code Refactoring
 * Static Linking and Optimized Building
 
-OpenFace++ does NOT contain any major changes to facial data extraction techniques used by OpenFace.
+OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used by OpenFace.
 
+<hr/>
 <h2>Dependencies</h2>
 The sources of following third party components have been added to this repository. These components are linked statically into the final executable or library. You must respect their licenses. OpenFace++ requires NO boost.
 
@@ -64,6 +66,7 @@ The sources of following third party components have been added to this reposito
 </tr>
 </table>
 
+<hr/>
 <h2>Build Instructions</h2>
 Visual Studio 2015 is required. Make sure to selected C++ and Android NDK related components at setup stage.
 
@@ -130,6 +133,7 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 * (!) Contains duplicated resources from _Engine/res_
 * TODO...
 
+<hr/>
 <h2>Implementation Details</h2>
 
 <h3>Facial Expression Detection</h3>
