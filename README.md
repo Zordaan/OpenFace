@@ -107,7 +107,15 @@ Visual Studio 2015 is required. Make sure to selected C++ and Android NDK relate
 
 
 <h3>MiniExample</h3>
+* Minimal example as presented in my thesis.
+* For Windows only; requires Webcam.
+* Building requires successfully compiled engine for Windows!
+* VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/MiniExample/MiniExample.sln">MiniExample.sln</a>
 
 <h3>FaceSensor</h3>
+* Application used for the user study in my thesis
+* For Windows only
+* Building requires successfully compiled engine for Windows!
+* VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a>
 
 <h3>OpenFaceAndroid</h3>
