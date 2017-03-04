@@ -74,19 +74,37 @@ Visual Studio 2015 is required. Make sure to selected C++ and Android NDK relate
 
 <h3>Engine</h3>
 * <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine">Engine</a> folder contains all dependencies and OpenFace++
-* All libraries are compiled statically from sources, no precompiled binaries. 
-* First step: Build the engine using the Visual Studio 2015 solutions below!
-* Recommendation: Build engine for all possible configurations (e.g. x86/debug being only one).
-* This step must be done only once or in case there are changes in the dependencies.
+* All libraries are compiled statically from sources, no precompiled binaries! 
+* Build the engine for Windows or Android using the Visual Studio 2015 solutions below.
+* Recommendation: Build engine for all available configurations (e.g. x86/debug being only one!).
+* This step must be done only once; or in case there are changes in the dependencies.
+* Compiled libraries are placed in: _Engine/lib/[platform]_
+* Debug builds include additional filename appendix: _\_d_
 
-Compiled libraries are placed in: _Engine/lib/[platform]_ </br>
-Debug builds include additional filename appendix: _\_d_
+<h4>Windows</h4>
+<table>
+<tr>
+  <td>VS2015 Solution:</td>
+  <td><a href="https://github.com/cyberjunk/OpenFace/blob/master/Engine/Engine.sln">Engine.sln</a></td>
+</tr>
+<tr>
+  <td>Platforms:</td>
+  <td>x86, x64</td>
+</tr>
+</table>
 
-Visual Studio Solutions:</br>
-<ul>
-<li>Windows: <a href="https://github.com/cyberjunk/OpenFace/blob/master/Engine/Engine.sln">Engine.sln</a></li>
-<li>Android: <a href="https://github.com/cyberjunk/OpenFace/blob/master/Engine/Engine-Android.sln">Engine-Android.sln</a></li>
-</ul>
+<h4>Android</h4>
+<table>
+<tr>
+  <td>VS2015 Solution:</td>
+  <td><a href="https://github.com/cyberjunk/OpenFace/blob/master/Engine/Engine-Android.sln">Engine-Android.sln</a></td>
+</tr>
+<tr>
+  <td>Platforms:</td>
+  <td>ARM, ARM64, x86, x64</td>
+</tr>
+</table>
+
 
 <h3>MiniExample</h3>
 
