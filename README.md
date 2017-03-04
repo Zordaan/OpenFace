@@ -15,7 +15,7 @@ OpenFace++ includes these changes compared to OpenFace.
 * Code Refactoring
 * Static Linking and Optimized Building
 
-OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used by OpenFace.
+OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used in OpenFace.
 
 <hr/>
 <h2>Dependencies</h2>
