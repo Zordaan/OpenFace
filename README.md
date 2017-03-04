@@ -127,4 +127,7 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 * VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a>
 
 <h3>OpenFaceAndroid</h3>
-* TODO
+* Test project for Android Studio
+* (!) Requires compatible SO library from _openface-jni_
+* (!) Contains duplicated resources from _Engine/res_
+* TODO...
