@@ -1,7 +1,7 @@
 <h1>OpenFace++</h1>
 
 <h2>Introduction</h2>
-OpenFace++ was created for my diploma thesis [LINK]. It is based on the original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> codebase from August 2016. OpenFace++ contains several modifications and extensions.
+OpenFace++ was created for my diploma thesis [LINK]. It is based on the original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> codebase from August 2016. OpenFace++ contains several modifications and extensions described below.
 
 <hr/>
 <h2>Comparison to OpenFace</h2>
@@ -16,6 +16,10 @@ OpenFace++ includes these changes compared to OpenFace.
 * Static Linking and Optimized Building
 
 OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used in OpenFace.
+
+<hr/>
+<h2>License</h2>
+OpenFace++ was created for research purposes and does not have any additional license requirements. However, you must respect the original OpenFace <a href="https://github.com/TadasBaltrusaitis/OpenFace/blob/master/Copyright.txt">license</a> as well as the licenses of all the dependencies mentioned below.
 
 <hr/>
 <h2>Dependencies</h2>
