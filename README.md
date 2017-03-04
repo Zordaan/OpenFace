@@ -115,6 +115,7 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 * Minimal example as presented in my thesis.
 * For Windows only; requires Webcam.
 * Building requires successfully compiled engine for Windows!
+* Includes the openface library project. You can change, rebuild and test from here!
 * VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/MiniExample/MiniExample.sln">MiniExample.sln</a>
 
 <h3>FaceSensor</h3>
@@ -122,6 +123,7 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 * For Windows only; requires Webcam.
 * Building requires successfully compiled engine for Windows!
 * Streams facial data data using OSC network protocol.
+* Includes the openface library project. You can change, rebuild and test from here!
 * VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a>
 
 <h3>OpenFaceAndroid</h3>
