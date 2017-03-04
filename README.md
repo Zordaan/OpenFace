@@ -3,10 +3,23 @@ Work in Progress
 <h1>OpenFace++</h1>
 
 <h2>Introduction</h2>
+OpenFace++ was created for my diploma thesis. 
 
 <h2>Comparison to OpenFace</h2>
-<h3>Test</h3>
-<h3>Test</h3>
+
+<h3>Facial Expression Detection</h3>
+The original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> provides excellent extraction of <a href="https://en.wikipedia.org/wiki/Facial_Action_Coding_System">Action Units</a>. OpenFace++ examines the extracted data using following two different techniques.
+
+<h4>Logical Expressions</h4>
+A rather simple approach which uses the binary AU-SVM classifications.
+
+<h4>Support Vector Regression</h4>
+More advanced. Uses libsvm trained regression. Training was done on the CK+ database.
+
+<h3>Attention Estimation</h3>
+
+<h3>Android Support</h3>
+<img src="http://i.imgur.com/fjspkXg.jpg"/>
 
 <h2>Dependencies</h2>
 The sources of following third party components have been added to this repository. These components are linked statically into the final executable or library. You must respect their licenses.
