@@ -14,6 +14,7 @@ OpenFace++ includes these changes compared to OpenFace.
 * Background Worker Thread
 * Simplified API
 * Code Refactoring
+* Static Linking and Optimized Build
 
 <h2>Dependencies</h2>
 The sources of following third party components have been added to this repository. These components are linked statically into the final executable or library. You must respect their licenses.
