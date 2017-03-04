@@ -5,17 +5,15 @@ OpenFace++ was created for my diploma thesis [LINK]. It is based on the original
 
 <hr/>
 <h2>Comparison to OpenFace</h2>
-OpenFace++ includes these changes compared to OpenFace.
+OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used in OpenFace. OpenFace++ includes the following changes compared to OpenFace.
 
-* Facial Expression Detection (using Action Units)
-* Attention Estimation (using Eye-Gaze)
-* Android Support
+* Added Facial Expression Detection (using Action Units)
+* Added Attention Estimation (using Eye-Gaze)
+* Added Android Support
 * Encapsulated in Background Worker Thread
 * Drastically Simplified API
-* Code Refactoring
+* Major Code Refactoring
 * Static Linking and Optimized Building
-
-OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used in OpenFace.
 
 <hr/>
 <h2>License</h2>
