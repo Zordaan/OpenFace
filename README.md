@@ -19,7 +19,7 @@ OpenFace++ does NOT contain any major changes to the facial data extraction tech
 
 <hr/>
 <h2>License</h2>
-OpenFace++ was created for research purposes and does not have any additional license requirements. However, you must respect the original OpenFace <a href="https://github.com/TadasBaltrusaitis/OpenFace/blob/master/Copyright.txt">license</a> as well as the licenses of all the dependencies mentioned below.
+OpenFace++ was created for research purposes and does not have any additional license requirements. However, you must respect the original OpenFace <a href="https://github.com/TadasBaltrusaitis/OpenFace/blob/master/Copyright.txt">license</a> as well as the licenses of dependencies listed below.
 
 <hr/>
 <h2>Dependencies</h2>
