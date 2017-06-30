@@ -44,7 +44,7 @@ Precompiled binaries available soon!
 <td>OpenFaceAndroid</td>
 <td>Android 4.4+</td>
 <td>APK</td>
-<td>Link</td>
+<td><a href="https://drive.google.com/open?id=0B-6rsj6uHlolMDZ2aDZqaTZ0aDg">Link</a></td>
 </tr>
 </table>
 
@@ -106,13 +106,15 @@ The sources of following third party components have been added to this reposito
 Visual Studio 2015 is required. Make sure to selected C++ and Android NDK related components at setup stage.
 
 <h3>Engine</h3>
-* <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine">Engine</a> folder contains all dependencies and OpenFace++
-* All libraries are compiled statically from sources, no precompiled binaries! 
-* Build the engine for Windows or Android using the Visual Studio 2015 solutions below.
-* Recommendation: Build engine for all available configurations (e.g. x86/debug being only one!).
-* This step must be done only once; or in case there are changes in the dependencies.
-* Compiled libraries are placed in: _Engine/lib/[platform]_
-* Debug builds include additional filename appendix: _\_d_
+<ul>
+<li><a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine">Engine</a> folder contains all dependencies and OpenFace++</li>
+<li>All libraries are compiled statically from sources, no precompiled binaries!</li>
+<li>Build the engine for Windows or Android using the Visual Studio 2015 solutions below.</li>
+<li>Recommendation: Build engine for all available configurations (e.g. x86/debug being only one!).</li>
+<li>This step must be done only once; or in case there are changes in the dependencies.</li>
+<li>Compiled libraries are placed in: _Engine/lib/[platform]_</li>
+<li>Debug builds include additional filename appendix: _\_d_</li>
+</ul>
 
 <h4>Windows</h4>
 <table>
@@ -145,28 +147,33 @@ Visual Studio 2015 is required. Make sure to selected C++ and Android NDK relate
 _Note_: The Android solution includes the additional <a href="https://github.com/cyberjunk/OpenFace/tree/master/Engine/src/openface-jni">openface-jni</a> project. This is the <a href="https://en.wikipedia.org/wiki/Java_Native_Interface">Java JNI</a> wrapper used to access OpenFace from a managed Java APP on Android. This project generates the _SO_ library file which can be loaded and called in an Android App using the _native_ keyword in Java.
 
 <h3>MiniExample</h3>
-* <a href="https://github.com/cyberjunk/OpenFace/tree/master/MiniExample">Folder</a>
-* Minimal example as presented in my thesis.
-* For Windows only; requires Webcam.
-* Building requires successfully compiled engine for Windows!
-* Includes the openface library project. You can change, rebuild and test from here!
-* VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/MiniExample/MiniExample.sln">MiniExample.sln</a>
+<ul>
+<li><a href="https://github.com/cyberjunk/OpenFace/tree/master/MiniExample">Folder</a></li>
+<li>Minimal example as presented in my thesis.</li>
+<li>For Windows only; requires Webcam.</li>
+<li>Building requires successfully compiled engine for Windows!</li>
+<li>Includes the openface library project. You can change, rebuild and test from here!</li>
+<li>VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/MiniExample/MiniExample.sln">MiniExample.sln</a></li>
+</ul>
 
 <h3>FaceSensor</h3>
-* <a href="https://github.com/cyberjunk/OpenFace/tree/master/FaceSensor">Folder</a>
-* Application used for the user study in my thesis
-* For Windows only; requires Webcam.
-* Building requires successfully compiled engine for Windows!
-* Streams facial data data using OSC network protocol.
-* Includes the openface library project. You can change, rebuild and test from here!
-* VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a>
+<ul>
+<li><a href="https://github.com/cyberjunk/OpenFace/tree/master/FaceSensor">Folder</a></li>
+<li>Application used for the user study in my thesis</li>
+<li>For Windows only; requires Webcam.</li>
+<li>Building requires successfully compiled engine for Windows!</li>
+<li>Streams facial data data using OSC network protocol.</li>
+<li>Includes the openface library project. You can change, rebuild and test from here!</li>
+<li>VS2015 Solution: <a href="https://github.com/cyberjunk/OpenFace/blob/master/FaceSensor/FaceSensor.sln">FaceSensor.sln</a></li>
+</ul>
 
 <h3>OpenFaceAndroid</h3>
-* <a href="https://github.com/cyberjunk/OpenFace/tree/master/OpenFaceAndroid">Folder</a>
-* Test project for Android Studio
-* (!) Requires compatible SO library from _openface-jni_
-* (!) Contains duplicated resources from _Engine/res_
-* TODO...
+<ul>
+<li>><a href="https://github.com/cyberjunk/OpenFace/tree/master/OpenFaceAndroid">Folder</a></li>
+<li>>Test project for Android Studio</li>
+<li>>(!) Requires compatible SO library from _openface-jni_</li>
+<li>>(!) Contains duplicated resources from _Engine/res_</li>
+</ul>
 
 <hr/>
 <h2>Implementation Details</h2>
