@@ -1,7 +1,7 @@
 <h1>OpenFace++</h1>
 
 <h2>Introduction</h2>
-OpenFace++ was created for my diploma thesis [LINK]. It is based on the original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> codebase from August 2016. OpenFace++ contains several modifications and extensions described below.
+OpenFace++ was created for my diploma <a href="https://drive.google.com/open?id=0B-6rsj6uHlolcml6S3NDdm9BQlE">thesis</a>. It is based on the original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> codebase from August 2016. OpenFace++ contains several modifications and extensions described below.
 
 <hr/>
 <h2>Comparison to OpenFace</h2>
@@ -38,7 +38,7 @@ Precompiled binaries available soon!
 <td>FaceSensor</td>
 <td>Windows</td>
 <td>ZIP</td>
-<td>Link</td>
+<td><a href="https://drive.google.com/open?id=0B-6rsj6uHlolb2t2eVVPYW12aHM">Link</a></td>
 </tr>
 <tr>
 <td>OpenFaceAndroid</td>
