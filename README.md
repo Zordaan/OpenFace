@@ -5,22 +5,24 @@ OpenFace++ was created for my diploma <a href="https://drive.google.com/open?id=
 
 <hr/>
 <h2>Comparison to OpenFace</h2>
-OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used in OpenFace. OpenFace++ includes the following changes compared to OpenFace.
+OpenFace++ does NOT contain any major changes to the facial data extraction techniques already used in OpenFace. However, OpenFace++ includes the following changes compared to OpenFace.
 
-* Added Facial Expression Detection (using Action Units)
-* Added Attention Estimation (using Eye-Gaze)
-* Added Android Support
-* Encapsulated in Background Worker Thread
-* Drastically Simplified API
-* Major Code Refactoring
-* Static Linking and Optimized Building
+<ul>
+<li>Facial Expression Detection (using Action Units)</li>
+<li>Attention Estimation (using Eye-Gaze)</li>
+<li>Android Support</li>
+<li>Background Worker Thread</li>
+<li>Simplified API</li>
+<li>Code Refactoring</li>
+<li>Static Linking and Optimized Building</li>
+</ul>
 
-For more detailed information please scroll down to _Implementation Details_.
+For more detailed information please refer to the thesis document.
+
+<img src="http://i.imgur.com/fjspkXg.jpg"/>
 
 <hr/>
 <h2>Downloads</h2>
-Precompiled binaries available soon!
-
 <table>
 <tr>
 <td><b>Project</b></td>
@@ -169,28 +171,8 @@ _Note_: The Android solution includes the additional <a href="https://github.com
 
 <h3>OpenFaceAndroid</h3>
 <ul>
-<li>><a href="https://github.com/cyberjunk/OpenFace/tree/master/OpenFaceAndroid">Folder</a></li>
-<li>>Test project for Android Studio</li>
-<li>>(!) Requires compatible SO library from _openface-jni_</li>
-<li>>(!) Contains duplicated resources from _Engine/res_</li>
+<li><a href="https://github.com/cyberjunk/OpenFace/tree/master/OpenFaceAndroid">Folder</a></li>
+<li>Test project for Android Studio</li>
+<li>(!) Requires compatible SO library from _openface-jni_</li>
+<li>(!) Contains duplicated resources from _Engine/res_</li>
 </ul>
-
-<hr/>
-<h2>Implementation Details</h2>
-
-<h3>Facial Expression Detection</h3>
-The original <a href="https://github.com/TadasBaltrusaitis/OpenFace">OpenFace</a> provides excellent extraction of <a href="https://en.wikipedia.org/wiki/Facial_Action_Coding_System">Action Units</a>. OpenFace++ examines the extracted data using following two different techniques.
-
-<h4>Logical Expressions</h4>
-A rather simple approach which uses the binary AU-SVM classifications.
-
-<h4>Support Vector Regression</h4>
-More advanced. Uses libsvm trained regression. Training was done on the CK+ database.
-
-<h3>Attention Estimation</h3>
-
-<h3>Android Support</h3>
-<img src="http://i.imgur.com/fjspkXg.jpg"/>
-
-<h3>Background Thread</h3>
-
